@@ -1,0 +1,265 @@
+
+body {
+
+    background-color: #f4f4f4;
+    color: #040404;
+}
+/* Apply Fonts Globally */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header and Title Fonts
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Buttons and Highlights */
+/* .btn, .fw-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+} */ 
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+}
+    
+nav{
+    background-color: #000; /* Black background */
+    margin-bottom:-50px;
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .navbar-nav .nav-link {
+      color: white !important; /* White text */
+      font-size: 1.1rem;
+  }
+  #logosetting{
+    margin-left: 30px;
+  }
+  .navbar-brand img {
+      width: 80px;
+      height: 80px;
+  }
+  #navbarNav{
+    margin-right: 40px;
+  }
+  .dropdown-menu {
+      background-color: #ffffff; 
+      color: rgb(15, 18, 41);
+  }
+
+  .dropdown-item:hover {
+      background-color: #c6ddf0; 
+      color: rgb(33, 22, 133);
+  }
+  /* Carousel Image Styling */
+  .carousel-item img {
+    width: 100%;
+    height: 87vh; 
+    object-fit: cover; 
+  }
+
+  /* Center text on mobile screens */
+  .carousel-caption {
+    bottom: 20%; 
+  }
+
+  @media (max-width: 576px) {
+    .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  /* Reduce brightness of the image */
+  .dark-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(50%); /* Adjust percentage to control lightness */
+  }
+
+
+  #homeCarousel h3{
+    font-size: 55px;
+  }
+  p{
+    font-size: 18px;
+  }
+  #servicesetter{
+    margin-bottom: -70px;
+  }
+  /*** Facts ***/
+  .fact {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/carousel-bg-1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  /* page header */
+    /* Page Header */
+    .page-header {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 230px; /* Adjust as needed for better appearance */
+        margin-top: 90px;
+    }
+
+    .page-header-inner {
+        background: rgba(0, 0, 0, 0.7); /* Overlay to darken the background image */
+        height: 100%; /* Ensure the inner container covers the full height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+  /*** Testimonial ***/
+  .testimonial-carousel .owl-item .testimonial-text,
+  .testimonial-carousel .owl-item.center .testimonial-text * {
+      transition: .5s;
+  }
+
+  .testimonial-carousel .owl-item.center .testimonial-text {
+      background: var(--primary) !important;
+  }
+
+  .testimonial-carousel .owl-item.center .testimonial-text * {
+      color: #FFFFFF !important;
+  }
+
+  .testimonial-carousel .owl-dots {
+      margin-top: 24px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+  }
+
+  .testimonial-carousel .owl-dot {
+      position: relative;
+      display: inline-block;
+      margin: 0 5px;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #CCCCCC;
+      transition: .5s;
+  }
+
+  .testimonial-carousel .owl-dot.active {
+      background: var(--primary);
+      border-color: var(--primary);
+  }
+
+  .carousel-inner .carousel-item {
+  transition: transform 0.8s ease-in-out;
+  }
+
+/*** Service ***/
+
+.service-section h1 {
+    font-weight: 700;
+    color: #333;
+}
+
+.service-section .nav-link {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-section .nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.service-section .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tab-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+    /*** Footer ***/
+    .footer {
+        background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/carousel-bg-1.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .footer .btn.btn-social {
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light);
+        border: 1px solid #FFFFFF;
+        border-radius: 35px;
+        transition: .3s;
+    }
+
+    .footer .btn.btn-social:hover {
+        color: var(--primary);
+    }
+
+    .footer .btn.btn-link {
+        display: block;
+        margin-bottom: 5px;
+        padding: 0;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: normal;
+        text-transform: capitalize;
+        transition: .3s;
+    }
+
+    .footer .btn.btn-link::before {
+        position: relative;
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+    }
+
+    .footer .btn.btn-link:hover {
+        letter-spacing: 1px;
+        box-shadow: none;
+    }
+
+    .footer .copyright {
+        padding: 25px 0;
+        font-size: 15px;
+        border-top: 1px solid rgba(256, 256, 256, .1);
+    }
+
+    .footer .copyright a {
+        color: var(--light);
+    }
+
+    .footer .footer-menu a {
+        margin-right: 15px;
+        padding-right: 15px;
+        border-right: 1px solid rgba(255, 255, 255, .3);
+    }
+
+    .footer .footer-menu a:last-child {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+    }

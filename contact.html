@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Repr-Serv</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="carstyle.css">
+    <style>
+        /* Contact Section */
+.contact ul {
+    padding-left: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+#carcontact{
+    margin-top: 70px;
+}
+.form-control {
+            background-color: rgba(255, 255, 255, 0); /* Transparent background */
+            border: 1px solid #ccc; /* Subtle border for visibility */
+            color: white; /* Text color to contrast with background */
+            font-size: 1rem;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.7); /* Lighter placeholder text */
+        }
+
+        .form-control:focus {
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly visible background on focus */
+            border-color: #007bff; /* Highlighted border on focus */
+            box-shadow: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between align-items-center">
+            <!-- Logo aligned to the left -->
+            <a class="navbar-brand d-flex align-items-center" href="hlocar.html" id="logosetting">
+                <img src="https://png.pngtree.com/png-vector/20220711/ourmid/pngtree-automotive-car-logo-png-image_5837187.png" alt="CarFix Logo" style="width: 100px; height: 100px;">
+                <div class="ml-2 d-none d-md-block">
+                    <span class="logo-text fs-5 text-white"><b>CarFix</b></span><br>
+                    <small class="tagline text-white"><i>Your car, our care</i></small>
+                </div>
+            </a>
+
+            <!-- Toggler button for mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar items aligned to the right -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="serviceex.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+   <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url('images/1642105939-multiple-cars.jpg');">
+        <div class="container-fluid page-header-inner py-5">
+        <div class="container text-center">
+            <h1 class="display-3 text-white mb-3 animated slideInDown"><b> Contact Us</b></h1>
+        </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <div class="text-center mb-5" >
+        <h1 class="mb-3"><b>Reach out for any car service assistance</b></h1>
+        <p class="text-muted">We're here to assist with all your inquiries and service needs—reach out today and let us help keep your car in top shape.</p>
+    </div>
+      <!-- 3 line -Service Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4" id="servicesetter" style="margin-top: -60px;">
+            <!-- Quality Servicing -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="d-flex py-5 px-4">
+                    <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Quality Servicing</h5>
+                        <p>We ensure your vehicle gets the best treatment using industry-grade techniques and premium materials. </p><br>
+                        <a class="text-secondary border-bottom" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Expert Workers -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="d-flex bg-light py-5 px-4">
+                    <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Expert Workers</h5>
+                        <p>Our team consists of certified and experienced professionals passionate about vehicles. </p><br>
+                        <a class="text-secondary border-bottom" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Modern Equipment -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="d-flex py-5 px-4">
+                    <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Modern Equipment</h5>
+                        <p>We use advanced diagnostic tools and state-of-the-art equipment to service your vehicle efficiently. </p><br>
+                        <a class="text-secondary border-bottom" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Service End -->
+    <!-- Contact Section -->
+    <section class="contact  py-5" id="carcontact" style="color: white;  background-image: url('images/Tata_Curvv_ev_32_7ea2612182.jpg'); " >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 style="font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Get in Touch🤝</h5>
+                    <p style="font-size: 19px;">If you need any services or repair works, feel free to contact us. We're here to help!</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Street, Anantapur, AP, 515001.</li>
+                        <li><i class="fas fa-phone"></i> +91 9876543210</li>
+                        <li><i class="fas fa-envelope"></i> carfix01@gmail.com</li>
+ 
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-8 col-md-6">
+                <h6 class="text-primary text-uppercase"><b>Call For Quick Action</b></h6>
+                <h1 class="mb-4">Need Help with Your Car Booking or Service?</h1>
+                <p class="mb-0">
+                    Got questions about booking repairs or regular maintenance? We're here to help!  
+                    Whether it’s scheduling your next service or addressing unexpected breakdowns, our experts are ready to assist.  
+                    Your car is in safe hands, and we’ll ensure smooth and hassle-free service every time. Don't wait—reach out today!
+                </p>
+            </div>
+            <br>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary d-flex flex-column justify-content-center text-center p-4" 
+                     style="height: 250px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <h3 class="text-white mb-4">
+                        <i class="fa fa-phone-alt me-3"></i>+91 9876543210
+                    </h3>
+                    <a href="contact.html" class="btn btn-secondary py-2 px-4">
+                        Contact Us<i class="fa fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Call To Action End -->
+  
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Anantapur, AP</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9876543210</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@carfix.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://x.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Opening Hours</h4>
+                <h6 class="text-light">Monday - Friday:</h6>
+                <p class="mb-4">09.00 AM - 09.00 PM</p>
+                <h6 class="text-light">Saturday - Sunday:</h6>
+                <p class="mb-0">09.00 AM - 12.00 PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+              <ul>
+                <li>Diagnostic Testimonial</li>
+                <li>Engine Servicing</li>
+                <li>Tires Replacement</li>
+                <li>Oil Changing</li>
+                <li>Vacuam Cleaning</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Newsletter</h4>
+                <p>Stay updated with car care tips and service offers from CarFix.</p>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" required>
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#"></a> All Rights Reserved, Designed By Manjula :)         </div>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
